@@ -10,44 +10,35 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-
     justify-content: center;
     font-family: 'Outfit', sans-serif;
-    height: 100vh;
-}
+    min-height: 100vh;
 
-img {
-    max-width: 100%;
+    
 }
-
+.card {
+   background: white;
+   padding: 1em;
+   width: 290px;
+   margin: auto;
+   border-radius: 20px;
+}
 .card img {
     border-radius: 15px;
-    margin-bottom: 17px;
+   
+    max-width: 100%;
 }
-
-.card {
-    background-color: hsl(0, 0%, 100%);
-    padding: 18px;
-    margin: 1.5rem;
-    border-radius: 16px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-
-
+.text{
+    text-align: center;
+    padding: 1em;
 }
-
-.card h1 {
+ .text h3 {
+    font-size: 1.3rem;
     color: hsl(218, 44%, 22%);
-    text-align: center;
+    padding: .5em;
 }
 
-.card p {
-    margin-top: 1rem;
-    text-align: center;
+.text p {
     color: hsl(220, 15%, 55%);
-}
-
-@media(min-width:500px) {
-    .card {
-        width: 400px;
-    }
+ padding: 10px 0 0 0 ;
 }
